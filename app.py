@@ -6,7 +6,7 @@ from rag_utils import get_rag_chain
 os.environ["GOOGLE_API_KEY"] = st.secrets["GOOGLE_API_KEY"]
 
 st.set_page_config(page_title="📄 Paper Q&A Chatbot", page_icon="🤖")
-st.title("📄 Research Paper Chatbot with Gemini + FAISS")
+st.title("📄 Research Paper Chatbot")
 
 st.markdown("Ask questions about the research paper stored in the app.")
 
